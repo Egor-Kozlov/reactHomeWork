@@ -1,0 +1,20 @@
+{
+  "name": "reactHomeWork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egor-Kozlov/reactHomeWork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egor-Kozlov/reactHomeWork/issues"
+  },
+  "homepage": "https://github.com/Egor-Kozlov/reactHomeWork#readme"
+}
