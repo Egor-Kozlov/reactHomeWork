@@ -1,0 +1,31 @@
+.squares-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    background: orange;
+    font-weight: 900;
+    border: orangered solid 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-square {
+    width: 90px;
+    height: 90px;
+}
+
+.medium-square {
+    width: 140px;
+    height: 140px;
+}
+
+.big-square {
+    width: 200px;
+    height: 200px;
+}

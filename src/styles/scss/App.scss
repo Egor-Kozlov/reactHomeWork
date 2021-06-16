@@ -1,0 +1,17 @@
+// config
+// ==================================================
+@import '../scss/config/reset';
+//fonts
+// ==================================================
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Playfair+Display:wght@400;900&display=swap');
+// TO use fonts: 
+// font-family: 'Oranienbaum', serif;
+// font-family: 'Playfair Display', serif;
+
+// components
+// ==================================================
+@import '../../components/card/card-style';
+@import '../../components/header/header';
+@import '../../components/task-3.1/texts-style';
+@import '../../components/task-3.2/square';
+

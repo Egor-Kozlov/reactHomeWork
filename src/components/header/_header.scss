@@ -1,0 +1,66 @@
+.App {
+    padding: 100px 0px;
+    background: url(../../img/backgrounds/flowers-background.jpeg) 0 0/cover no-repeat;
+    // del this after do cards-slider
+    background-attachment: fixed;
+}
+
+.header {
+    max-width: 810px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+    color: rgba(255, 217, 16, 1);
+}
+
+.header__title {
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.title__bulding {
+    margin-right: 60px;
+    font-family: 'Oranienbaum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+
+.title__your-acceptante {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 153px;
+}
+
+.header__subtitle {
+    margin-bottom: 8px;
+    font-family: 'Oranienbaum', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    text-transform: uppercase;  
+}
+
+.header__discription {
+    max-width: 667px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.react-logo {
+    width: 200px;
+    height: 200px;
+}
