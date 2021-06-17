@@ -3,6 +3,9 @@ import Header from './components/header/Header';
 import Card from './components/card/Card';
 import Text from './components/task-3.1/Text';
 import Square from './components/task-3.2/Square';
+import Checkbox from './components/task-4.1/Checkbox';
+import PlayerButton from './components/task-4.2/PlayerButton';
+import ItalicText from './components/task-4.3/ItalicText';
 
 function App() {
   return (
@@ -25,7 +28,21 @@ function App() {
           </div>  
       </Card>
       {/* End Task 3.2 */}
-      <Card></Card>
+      {/* Start Task 4.1 */}
+      <Card taskNumber = '4.1' condition = 'this feature is in development'>
+        <Checkbox />
+      </Card>
+      {/* End Task 4.1 */}
+      {/* Start Task 4.2 */}
+      <Card taskNumber = '4.2' condition = 'this feature is in development'>
+        <PlayerButton />
+      </Card>
+      {/* End Task 4.2 */}
+      {/* Start Task 4.3 */}
+      <Card taskNumber = '4.3' condition = 'this feature is in development'>
+        <ItalicText />
+      </Card>
+      {/* End Task 4.3 */}
     </div>
   );
 }

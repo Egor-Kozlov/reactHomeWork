@@ -390,7 +390,7 @@ textarea {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 153px;
   color: #ffd910;
 }
@@ -516,5 +516,35 @@ textarea {
 .big-square {
   width: 200px;
   height: 200px;
+}
+
+.checkbox {
+  margin: 30px;
+  text-align: center;
+  font-size: 70px;
+  color: #ff9d00;
+}
+
+.player-button {
+  margin: 30px;
+  font-size: 75px;
+  text-align: center;
+}
+
+.styleItalicText {
+  text-align: center;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  color: #ffd910;
+  padding: 15px;
+  border: orangered solid 4px;
+}
+
+.fontStyleItalic {
+  font-style: italic;
 }
 /*# sourceMappingURL=App.css.map */
