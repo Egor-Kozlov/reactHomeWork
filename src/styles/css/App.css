@@ -390,7 +390,7 @@ textarea {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 153px;
   color: #ffd910;
 }
@@ -413,6 +413,11 @@ textarea {
   font-size: 19px;
   line-height: 25px;
   color: #ffd910;
+}
+
+.card__solution {
+  display: flex;
+  justify-content: center;
 }
 
 .App {
@@ -479,6 +484,17 @@ textarea {
 .react-logo {
   width: 200px;
   height: 200px;
+  animation: 18s linear 0s normal none infinite running rot;
+  -webkit-animation: 18s linear 0s normal none infinite running rot;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .text {
@@ -516,5 +532,55 @@ textarea {
 .big-square {
   width: 200px;
   height: 200px;
+}
+
+.checkbox {
+  margin: 30px;
+  text-align: center;
+  font-size: 70px;
+  color: #ff9d00;
+}
+
+.player-button {
+  margin: 30px;
+  font-size: 75px;
+  text-align: center;
+}
+
+.styleItalicText {
+  text-align: center;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  color: #ffd910;
+  padding: 15px;
+  border: orangered solid 4px;
+}
+
+.fontStyleItalic {
+  font-style: italic;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin: 2rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=App.css.map */
