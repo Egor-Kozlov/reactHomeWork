@@ -47,6 +47,9 @@ function TaskConditions(props) {
             <li>Использовать тернарный оператор, чтобы когда this.state.isSignedIn был true показывать текст с приветствием пользователя, а когда false - отображать кнопку входа</li>
         </ul>
         </ReactTooltip>
+        <ReactTooltip id='6' aria-haspopup='true' >
+        <p>Используя map вывести каждый элемент массива data как div, в котором в тэгах h3 и h4 выводятся поля name.first и name.last (имя и фамилия)</p>
+        </ReactTooltip>
    </>
     )
 }

@@ -11,6 +11,7 @@ import PlayerButton from './components/task-4.2/PlayerButton';
 import ItalicText from './components/task-4.3/ItalicText';
 import Loader from './components/task-5.2/Loader';
 import IsSignedIn from './components/task-5.3/IsSignedIn';
+import CycleOfComponents from './components/task-6/CycleOfComponents';
 
 function App() {
   return (
@@ -61,6 +62,11 @@ function App() {
         <IsSignedIn />
       </Card>
       {/* End Task 5.3 */}
+      {/* Start Task 6 */}
+      <Card taskNumber = '6' condition = '6'>
+        <CycleOfComponents />
+      </Card>
+      {/* End Task 6 */}
     </div>
   );
 }
