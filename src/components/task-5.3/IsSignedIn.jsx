@@ -1,5 +1,4 @@
 import React from 'react'
-
 class IsSignedIn extends React.Component {
 
     state = {
