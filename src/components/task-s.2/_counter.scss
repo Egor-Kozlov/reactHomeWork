@@ -1,0 +1,14 @@
+.counter-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(255, 251, 0);
+}

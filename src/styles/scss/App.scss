@@ -1,12 +1,15 @@
 // config
 // ==================================================
 @import '../scss/config/reset';
+@import '../scss/config/mixins';
 //fonts
 // ==================================================
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Playfair+Display:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
 // TO use fonts: 
 // font-family: 'Oranienbaum', serif;
 // font-family: 'Playfair Display', serif;
+// font-family: 'Caveat', cursive;
 
 // components
 // ==================================================
@@ -20,4 +23,7 @@
 @import '../../components/task-5.2/loader';
 @import '../../components/task-5.3/isSignedIn';
 @import '../../components/task-6/CycleOfComponents';
+@import '../../components/task-s.1/tap';
+@import '../../components/task-s.2/counter';
+@import '../../components/task-T.1/checkList';
 

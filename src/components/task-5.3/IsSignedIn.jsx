@@ -8,7 +8,7 @@ class IsSignedIn extends React.Component {
 
     render() {
         return (
-            this.state.isSigned ? "Hello user" :
+            this.state.isSigned ? <p className = 'text-hello-user'>Hello user</p> :
             <button onClick = { () => this.setState ( {isSigned: true} )  }>"Sign In"</button> 
         )
     }

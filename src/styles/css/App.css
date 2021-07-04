@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Oranienbaum&family=Playfair+Display:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -584,7 +585,8 @@ textarea {
   }
 }
 
-.data-container {
+.text-hello {
+  padding: 10px;
   margin: 10px;
   border: 3px solid orangered;
   color: #ffd910;
@@ -594,5 +596,102 @@ textarea {
   font-size: 19px;
   line-height: 25px;
   text-align: center;
+}
+
+.text-hello-user {
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid orangered;
+  color: #ffd910;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.data-container {
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid orangered;
+  color: #ffd910;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-container button {
+  margin: 10px;
+}
+
+.counter-container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 45px;
+  color: #fffb00;
+}
+
+.checkList-container {
+  width: 420px;
+  background: #ffffff;
+}
+
+.checkList-header {
+  height: 65px;
+  background: #2caf94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Caveat', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.81px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.checkList-title {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.checkList {
+  padding: 30px;
+}
+
+.list-item {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 5px;
+  border-bottom: gray 1px solid;
+}
+
+.check__input {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=App.css.map */

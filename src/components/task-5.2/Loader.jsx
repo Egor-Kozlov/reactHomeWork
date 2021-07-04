@@ -25,11 +25,10 @@ class Loader extends React.Component {
                     {!this.state.isShowGretting && !this.state.isShowLoader ? 'Сказать привет' : 'Сброс'}
                 </button>
                 {this.state.isShowLoader && <div className = 'loader'></div>}
-                {this.state.isShowGretting && <p>Привет!</p>}
+                {this.state.isShowGretting && <p className = 'text-hello'>Привет!</p>}
             </div>
         )
     }
 }
-
 
 export default Loader

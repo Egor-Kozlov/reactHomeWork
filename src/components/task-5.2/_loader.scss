@@ -13,3 +13,7 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.text-hello {
+    @include yellow-medium-text-with-border;
+}
