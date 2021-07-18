@@ -6,10 +6,14 @@ class IsSignedIn extends React.Component {
         isSigned: false
     }
 
+    onShowUserAuthorization = () => {
+        this.setState ( {isSigned: true} )
+    }
+
     render() {
         return (
             this.state.isSigned ? <p className = 'text-hello-user'>Hello user</p> :
-            <button onClick = { () => this.setState ( {isSigned: true} )  }>"Sign In"</button> 
+            <button onClick = { () => setTimeout(this.onShowUserAuthorization, 3000) }>"Sign In"</button> 
         )
     }
 }
