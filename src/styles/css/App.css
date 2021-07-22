@@ -679,6 +679,13 @@ textarea {
   margin: 15px;
 }
 
+.checkList-alert {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 15px;
+}
+
 .checkList {
   padding: 30px;
 }
@@ -693,5 +700,25 @@ textarea {
 
 .check__input {
   margin-right: 10px;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.auth__user-email {
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid orangered;
+  color: #ffd910;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: center;
 }
 /*# sourceMappingURL=App.css.map */

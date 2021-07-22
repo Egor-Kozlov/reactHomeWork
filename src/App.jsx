@@ -21,6 +21,7 @@ import CycleOfComponents from './components/task-6/CycleOfComponents';
 import Tap from './components/task-s.1/Tap';
 import Counter from './components/task-s.2/Counter';
 import CheckList from './components/task-T.1/CheckList';
+import PostRequest from './components/task-H.8/PostRequest';
 // import { from } from 'pumpify';
 
 function App() {
@@ -115,6 +116,11 @@ function App() {
         <CheckList />
       </Card>
       {/* End Task T.1 */}
+      {/* Start Task H.8 */}
+      <Card taskNumber = 'H.8' condition = 'H.8'>
+        <PostRequest />
+      </Card>
+      {/* End Task H.8 */}
     </div>
   );
 }
