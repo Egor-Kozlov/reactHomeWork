@@ -22,6 +22,8 @@ import Tap from './components/task-s.1/Tap';
 import Counter from './components/task-s.2/Counter';
 import CheckList from './components/task-T.1/CheckList';
 import PostRequest from './components/task-H.8/PostRequest';
+import AddRandomName from './components/task-H.9.1/AddRandomName';
+
 // import { from } from 'pumpify';
 
 function App() {
@@ -121,6 +123,11 @@ function App() {
         <PostRequest />
       </Card>
       {/* End Task H.8 */}
+      {/* Start Task H.9.1 */}
+      <Card taskNumber = 'H.9.1' condition = 'H.9.1'>
+        <AddRandomName />
+      </Card>
+      {/* End Task H.9.1 */}
     </div>
   );
 }
