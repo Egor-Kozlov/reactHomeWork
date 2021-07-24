@@ -23,6 +23,7 @@ import Counter from './components/task-s.2/Counter';
 import CheckList from './components/task-T.1/CheckList';
 import PostRequest from './components/task-H.8/PostRequest';
 import AddRandomName from './components/task-H.9.1/AddRandomName';
+import TwoSideBinding from './components/task-H.9.2/TwoSideBinding';
 
 // import { from } from 'pumpify';
 
@@ -128,6 +129,11 @@ function App() {
         <AddRandomName />
       </Card>
       {/* End Task H.9.1 */}
+      {/* Start Task H.9.2 */}
+      <Card taskNumber = 'H.9.2' condition = 'H.9.2'>
+        <TwoSideBinding />
+      </Card>
+      {/* End Task H.9.2 */}
     </div>
   );
 }
