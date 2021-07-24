@@ -721,4 +721,9 @@ textarea {
   line-height: 25px;
   text-align: center;
 }
+
+.names-container {
+  display: flex;
+  flex-direction: column;
+}
 /*# sourceMappingURL=App.css.map */

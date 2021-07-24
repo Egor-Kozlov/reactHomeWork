@@ -26,7 +26,7 @@ function AddRandomName(params) {
         <div className = 'names-container'>
             {names.map( (name) => {
                 return (
-                <p key = {name}>{name}</p>
+                <p className = 'data-container' key = {name}>{name}</p>
                 )
             })}
             <button onClick = {() => addName()} type = 'button'>Add name</button>

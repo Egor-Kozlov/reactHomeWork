@@ -6,8 +6,8 @@ function TwoSideBinding(params) {
 
     return (
         <div className = 'input-container'>
-            <input type="text" name="input" id="input" value = {inputValue} onChange = {(event) => setInputValue(event.target.value)}/>
-            <p>{ inputValue }</p>
+            <input placeholder = 'Write here' type="text" name="input" id="input" value = {inputValue} onChange = {(event) => setInputValue(event.target.value)}/>
+            <p className = 'data-container'>{ inputValue }</p>
         </div>
     )
 }
