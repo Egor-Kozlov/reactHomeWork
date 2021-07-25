@@ -4,11 +4,10 @@ import arrOfNames from '../../names.json'
 function AddRandomName(params) {
 
     const [names, setNames] = useState([])
-    const [index, setIndex] = useState(3)
 
     let arr = []
     for (let index = 0; index < 3; index++) {
-        const element = arrOfNames[index];
+        const element = arrOfNames[Math.floor(Math.random() * 13)];
         arr.push(element)
     }
 
@@ -17,16 +16,15 @@ function AddRandomName(params) {
     }, [])
 
     function addName(params) {
-        setIndex ((index) => index + 1)
-        arr = [...names, arrOfNames[index]]
+        arr = [...names, arrOfNames[Math.floor(Math.random() * 13)]]
         setNames ((name) => name = arr)
     }
 
     return (
-        <div className = 'names-container'>
+        <div className = 'names-container' key = {arrOfNames[0]}>
             {names.map( (name) => {
                 return (
-                <p className = 'data-container' key = {name}>{name}</p>
+                <p className = 'data-container'>{name}</p>
                 )
             })}
             <button onClick = {() => addName()} type = 'button'>Add name</button>
