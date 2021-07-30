@@ -8,7 +8,7 @@ class PostRequest extends React.Component {
     // "password": "123"
 
     state = {
-        users: [],
+        users: {},
         inputValueNumber: '',
         inputValuePassword: '',
     }

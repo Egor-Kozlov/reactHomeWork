@@ -360,11 +360,13 @@ textarea {
 .card {
   margin: 0 auto;
   margin-bottom: 70px;
-  width: 600px;
+  max-width: 600px;
   min-height: 300px;
   padding: 20px 70px;
   border-radius: 55px;
   box-shadow: -11px 10px 28px 0px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   position: relative;
   background: inherit;
   overflow: hidden;
@@ -725,5 +727,19 @@ textarea {
 .names-container {
   display: flex;
   flex-direction: column;
+}
+
+.menu-container {
+  max-width: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: seashell;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.menu-container li {
+  margin: 10px;
 }
 /*# sourceMappingURL=App.css.map */
