@@ -729,6 +729,45 @@ textarea {
   flex-direction: column;
 }
 
+.time-picker-container {
+  min-width: 220px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.time-picker-container .counter {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.time-picker-container .counter .counter__item {
+  color: black;
+}
+
+.time-picker-container .buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.time-picker-container .buttons-container button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+}
+
 .menu-container {
   max-width: 130px;
   margin: 0 auto;
