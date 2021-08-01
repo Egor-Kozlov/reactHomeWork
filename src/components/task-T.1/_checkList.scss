@@ -1,0 +1,57 @@
+.checkList-container {
+    width: 420px;
+    background: #ffffff;
+}
+
+.checkList-header {
+    height: 65px;
+    background: rgba(44, 175, 148, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.81px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.checkList-title  {
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.checkList-alert {
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.checkList {
+    padding: 30px;
+}
+
+.list-item {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 5px;
+
+    border-bottom: gray 1px solid;
+}
+
+.check__input {
+    margin-right: 10px;
+}
+

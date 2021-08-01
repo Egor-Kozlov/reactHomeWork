@@ -1,0 +1,13 @@
+.menu-container {
+    max-width: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: seashell;
+    border-radius: 10px;
+    padding: 20px;
+    
+    li {
+        margin: 10px;
+    }
+}
